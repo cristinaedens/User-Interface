@@ -78,14 +78,18 @@ nav {
 	font-weight: bold;
 	word-spacing: 65px;
 	text-align:center;
+	background-color:#63707e;
+	position: fixed;
 }
 nav a{
-	color:#6c6c6d;
+	color:#f2f6f5;
 	text-decoration: none;
-
+	
 }
 .logo {
-position: fixed;
+position: absolute;
+margin-left: 88%;
+margin-top: 1%;
 }
 
 .header-container{
@@ -111,7 +115,11 @@ button{
 	vertical-align: middle;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+	font-size: 16px;
+}
+button a{
+	text-decoration: none;
+	color: black;
 }
 
 .header-img{
