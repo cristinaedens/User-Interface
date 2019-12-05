@@ -49,7 +49,7 @@ table {
 /* Set every element's box-sizing to border-box */
 * {
 		box-sizing: border-box;
-		border: 2px solid gray
+		
 }
 
 html, body {
@@ -75,25 +75,32 @@ nav {
 	margin:0 auto;
 	width:90%;
 	font-size: 1.3em;
+	font-weight: bold;
 	word-spacing: 65px;
 	text-align:center;
 }
 nav a{
-	color:#393e46;
+	color:#6c6c6d;
 	text-decoration: none;
 
 }
 .logo {
 position: fixed;
 }
+
+.header-container{
+	padding: 5%;
+}
+
 .innovation{
 	display: inline-block;
 	font-size:70px;
 	font-weight: bold;
 	margin-left: 20%;
 	text-align:center;
-	padding: 5px;
+	padding: 20px;
 }
+
 button{
 	background-color: rgb(226, 226, 226); /* Green */
   border: 1px solid black;
@@ -106,27 +113,75 @@ button{
   display: inline-block;
   font-size: 16px;
 }
+
 .header-img{
 	margin-left: 22%;
 	width: 25%;
-	padding: 13px;
+	padding: 10px;
 }
+
+.first-feature{
+	padding: 3% 0 3% 0;
+}
+
 .feature {
 	display: inline-block;
 	width: 50%;
-	padding: 15px;
-	font-size: 25px;
+	padding: 0 15px 0 0;
+	font-size: 23px;
 }
+
 .about {
 	display: inline-block;
 	width: 49%;
-	padding: 15px;
-	font-size: 25px;
+	padding: 0 15px 0 0;
+	font-size: 23px;
 }
+
 .middle-img{
 	display: block;
   margin-left: auto;
   margin-right: auto;
   width: 100%;
+}
 
+.second-feature{
+padding: 3% 0 3% 0;
+	
+}
+.services{
+	display: inline-block;
+	width: 32%;
+	padding: 0 15px 0 0;
+	font-size: 23px;
+}
+
+.product{
+	display: inline-block;
+	width: 32%;
+	padding: 0 15px 0 0;
+	font-size: 23px;
+}
+
+.vision{
+	display: inline-block;
+	width: 32%;
+	padding: 0 15px 0 0;
+	font-size: 23px;
+}
+
+hr{
+border-top:2px solid black;
+}
+
+h4{
+padding-top: 4%;
+}
+
+address{
+	font-size: 18px;
+}
+
+.copyright{
+	text-align:center;
 }
