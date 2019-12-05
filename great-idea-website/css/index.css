@@ -71,36 +71,32 @@ h1, h2, h3, h4, h5 {
 }
 
 nav {
-	display:inline-block;
+	display:;
 	margin:0 auto;
-	width:90%;
+	width:100%;
 	font-size: 1.3em;
 	font-weight: bold;
-	word-spacing: 65px;
+	word-spacing: 145px;
 	text-align:center;
-	background-color:#63707e;
-	position: fixed;
+
+
 }
 nav a{
-	color:#f2f6f5;
+	color:#15f5bd;
 	text-decoration: none;
 	
 }
-.logo {
-position: absolute;
-margin-left: 88%;
-margin-top: 1%;
-}
+
 
 .header-container{
-	padding: 5%;
+	display: flex;
+	justify-content: center;
+	margin: 3%;
 }
 
 .innovation{
-	display: inline-block;
 	font-size:70px;
 	font-weight: bold;
-	margin-left: 20%;
 	text-align:center;
 	padding: 20px;
 }
@@ -114,7 +110,6 @@ button{
 	text-align: center;
 	vertical-align: middle;
   text-decoration: none;
-  display: inline-block;
 	font-size: 16px;
 }
 button a{
@@ -129,50 +124,52 @@ button a{
 }
 
 .first-feature{
-	padding: 3% 0 3% 0;
+	display:flex;
+	align-content: center;
+	justify-content: center;
+	margin-bottom: 1%;
 }
 
 .feature {
-	display: inline-block;
+	
 	width: 50%;
 	padding: 0 15px 0 0;
 	font-size: 23px;
 }
 
 .about {
-	display: inline-block;
+	
 	width: 49%;
 	padding: 0 15px 0 0;
 	font-size: 23px;
 }
 
 .middle-img{
-	display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 100%;
+	width: 100%;
+	height: 30vh;
 }
 
 .second-feature{
-padding: 3% 0 3% 0;
+margin-top: 1%;
+display: flex;
 	
 }
 .services{
-	display: inline-block;
+	
 	width: 32%;
 	padding: 0 15px 0 0;
 	font-size: 23px;
 }
 
 .product{
-	display: inline-block;
+
 	width: 32%;
 	padding: 0 15px 0 0;
 	font-size: 23px;
 }
 
 .vision{
-	display: inline-block;
+
 	width: 32%;
 	padding: 0 15px 0 0;
 	font-size: 23px;
